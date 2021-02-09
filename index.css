@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    border: 0;
+}
+
+.search_field{
+    text-align: center;
+}
+.search_field input{
+    padding: 3px;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    margin-top: 10px;
+    border-radius: 2px;
+}
+button#search-btn {
+    color: white;
+    background-color: black;
+    padding: 4px 10px;
+    border-radius: 17px;
+}
+.search_items{
+    /* margin: 100px 0 0 100px;
+    display: grid;
+    grid-template-columns:350px 350px 350px 350px;
+    grid-template-rows:200px;
+    grid-gap:50px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px ;
+    margin: 100px 0 0 100px;
+}
+    
+.meal_item_div{
+    margin-bottom: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.meal_item_div img{
+    width: 100%;
+    height: 300px;
+}
+.meal_details_div{
+    width: 27%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.meal_details_div img{
+    width: 500px;
+    height: 450px;
+    padding: 50px;
+}
+.meal_details_div h3{
+    font-size:50px ;
+    font-weight:500;
+}
